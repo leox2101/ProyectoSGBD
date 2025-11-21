@@ -9,7 +9,9 @@ from cruds import (
     crear_intercambio, leer_intercambios,
     crear_leer_libros, leer_registros_lectura,
     crear_reunion, leer_reuniones,
+    execute_query,   
 )
+
 from conecction import get_db_connection
 from datetime import date  # Necesario para fechas
 
@@ -366,4 +368,5 @@ def menu_principal():
 
 
 if __name__ == "__main__":
+
     menu_principal()
